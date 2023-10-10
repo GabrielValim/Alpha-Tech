@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap" rel="stylesheet">
+    <title>AlphaTech</title>
+</head>
+<body>
+    <header class="container_header">
+        <a href=""><img src="./assets/Alpha.png" alt="Logo" class="logo"></a>
+        <nav class="navbar">
+            <ul class="list_header">
+                <li class="list_header_itens dropdown" >
+                    <a href="" class="header__itens_anchor">Cursos</a><!--header__itens_anchor-->
+                    <div class="dropdown-content">
+                        <a href="#" class="anchor__dropdown">Excel</a>
+                        <a href="#" class="anchor__dropdown">Python</a>
+                        <a href="#" class="anchor__dropdown">JavaScript</a>
+                        </div>
+                </li><!--lista__header_itens-->
+                <li class="list_header_itens">
+                    <a href="" class="header__itens_anchor">Blog</a><!--header__itens_anchor-->
+                </li><!--lista__header_itens-->
+                <li class="list_header_itens">
+                    <a href="" class="header__itens_anchor">Sobre</a><!--header__itens_anchor-->
+                </li><!--lista__header_itens-->
+                <li class="list_header_itens">
+                    <a href="" class="header__itens_anchor">Contato</a><!--header__itens_anchor-->
+                </li><!--lista__header_itens-->
+            </ul><!--list_header-->
+        </nav><!--navbar-->
+    </header><!--container_header-->
+
+    <section class="top_section_background">
+        <div class="top_section_background_text">
+            <h2>Torne-se uma referência no Mercado de Trabalho com a <strong>AlphaTech</strong></h2>
+            <p>Aprenda com a AlphaTech tudo que você precisa saber para se destacar no mercado de trabalho</p>
+            <button class="top_section_btn">Cursos AlphaTech</button><!--top_section_btn-->
+        </div><!--top_section_background_text-->
+    </section><!--top_section_background-->
+
+    <section class="section-differential">
+
+        <div class="section-differential__text">
+            <p>Conheça os diferenciais da <strong>AlphaTech</strong></p>
+            <p>Entenda por que optar por nossos programas de treinamento é a decisão ideal para transformar radicalmente a sua carreira profissional.</p>
+        </div><!--section-differential__text-->
+
+        <div class="section-differential__wrapper">
+            <div class="differencial-columns">
+                <img src="/assets/goal.png" class="differencial-columns__img" alt=""><!--differencial-columns__img-->
+                <h3>Foco no Mercado</h3>
+                <p>Nossos recursos são inteiramente direcionados ao Ambiente Profissional, o que significa que focamos na integração. Isso garante que o conhecimento seja aplicado de maneira direta e eficaz.</p>
+                <p>Com a nossa ajuda, você ganhará as habilidades essenciais para ingressar no mercado de trabalho com confiança, destacando-se na organização em que você atualmente colabora ou naquela em que aspira a fazer parte.</p>
+            </div><!--differencial-columns-->
+
+            <div class="differencial-columns">
+                <img src="/assets/wolf.png" class="differencial-columns__img" alt=""><!--differencial-columns__img-->
+                <h3>Nível Alpha</h3>
+                <p>Iniciamos o curso a partir do completo zero de conhecimento, e conduzimos você até um patamar superior, que denominamos de <strong>Nível Alpha</strong>, ultrapassando até mesmo o estágio avançado.</p>
+                <p>Aqueles que alcançam esse nível têm a capacidade de impulsionar suas carreiras e se estabelecer como <strong>referências</strong> nos softwares mais solicitados no mercado profissional.</p>
+                <p>Através dos métodos da AlphaTech, seus projetos e trabalhos passam por uma transformação que os eleva a um <strong>novo nível</strong>, surpreendendo tanto superiores quanto recrutadores.</p>
+            </div><!--differencial-columns-->
+
+            <div class="differencial-columns">
+                <img src="/assets/books-stack-of-three.png" class="differencial-columns__img" alt=""><!--differencial-columns__img-->
+                <h3>Metodologia</h3>
+                <p>O nossa metodologia foi montada de forma pedagoga, fundamentadas nas melhores práticas educacionais. Incentivamos a compreensão profunda e a aplicação prática do conhecimento. Através de recursos interativos e orientação personalizada.</p>
+                <p>Garantimos uma jornada de aprendizado envolvente e eficaz. Nossa metodologia é alicerçada na excelência educacional.</p>
+            </div><!--differencial-columns-->
+
+        </div><!--section-differential__wrapper-->
+    </section><!--section-differencial-->
+
+    <section class="section-help">
+        <div class="help__title">
+            <h3>Como a <strong>AlphaTech</strong> pode te ajudar?</h3>
+        </div>
+        <div class="section-help__list">
+            <div class="help__list-item">
+                <img src="assets/check.png" alt=""> 
+                <p>Deseja alcançar um status de destaque na empresa em que está empregado ou naquela em que planeja trabalhar?</p>
+            </div>    
+             <div class="help__list-item">
+                <img src="assets/check.png" alt=""> 
+                <p>Você está interessado em adquirir habilidades nas ferramentas mais utilizadas no mercado, desde o nível básico até o avançado?</p>
+            </div>
+            <div class="help__list-item">
+                <img src="assets/check.png" alt=""> 
+                <p>Você quer sair de qualquer nível e chegar ao <strong>nível Alpha</strong>, onde praticamente QUALQUER trabalho que você faça ira atrair elogios de forma magnética</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_register">
+        <h2>Cadastre-se e receba um <strong>Curso de graça!</strong></h2>
+
+            <form action="form" class="form">
+                <fieldset>
+                    <label class="form-label" for="nome">Nome</label><!--form-label-->
+                    <input type="text" id="nome" name="nome" class="form-input" placeholder="Seu primeiro nome" minlength="3" required><!--form-input-->
+                    <span class="mensagem-erro"></span><!--message error-->
+                </fieldset>
+                
+                <fieldset>
+                    <label class="form-label">E-mail</label><!--form-label-->
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Seu melhor e-mail" minlength="4" required> <!--form-input-->
+                    <span class="message error"></span><!--message error-->
+                </fieldset>
+                
+                <button type="submit" class="form-btn"><span>Enviar </span></button><!--form-btn-->
+    
+            </form><!--form-->
+    </section><!--section-register-->
+    
+
+    <section class="section_plans">
+        <h2 class="plans__tittle">
+            Começe a estudar
+            <span>agora</span>
+            com a AlphaTech
+        </h2>
+    </section>
+
+    <footer class="footer__dominioalpha">
+        <div class="footer-info">
+            <a href=""><img src="./assets/Logo Branca Alpha Tech.png" alt="" class="logo"></a>
+            <div class="footer-card-hotlinks">
+                <h2 class="footer-card-hotlinks-titulo">Nossas Redes</h2>
+                <div class="footer-card-hotlinks-info">
+                    <a href=""><img src="./assets/instagram.png" alt="icone-instagram"></a>
+                    <a href=""><img src="./assets/facebook.png" alt="icone-facebook"></a>
+                    <a href=""><img src="./assets/linkedin.png" alt="icone-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-browse">
+            <div class="browse-column">
+                <h2 class="browse-column-titulo">Institucional</h2>
+                <ul class="footer-browse-list">
+                    <li class="footer-browse-list-link">
+                        <a href="">Sobré nós</a>
+                    </li>
+                    <li class="footer-browse-list-link">
+                        <a href="">Política de Privacidade</a>
+                    </li>
+                    <li class="footer-browse-list-link">
+                        <a href="">Termos de uso</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="browse-column">
+                <h2 class="browse-column-titulo">AlphaTech</h2>
+                <ul class="footer-browse-list">
+                    <li class="footer-browse-list-link">
+                        <a href=""> Como funciona</a>
+                    </li>
+                    <li class="footer-browse-list-link">
+                        <a href="">Todos os cursos</a>
+                    </li>
+                    <li class="footer-browse-list-link">
+                        <a href="">Instrutures(as)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="browse-column">
+                <h2 class="browse-column-titulo">Conteúdos</h2>
+                <ul class="footer-browse-list">
+                    <li class="footer-browse-list-link">
+                        <a href="">Blog</a>
+                    </li>
+                    <li class="footer-browse-list-link">
+                        <a href="">Artigos</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="browse-column">
+                <h2 class="browse-column-titulo">Fale Conosco</h2>
+                <ul class="footer-browse-list">
+                    <li class="footer-browse-list-link">
+                        <a href=""> Email e telefone</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
